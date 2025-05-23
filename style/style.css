@@ -1,0 +1,121 @@
+@import "fonts.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --NS400: "NotoSans_Condensed-Bold";
+    --NS500: "NotoSans_Condensed-Medium";
+    --NS600: "NotoSans_Condensed-Regular";
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.header__nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 98px;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__link {
+    color: rgba(22, 49, 82, 1);
+    font-family: var(--NS500);
+
+}
+
+.header__bg {
+    position: relative;
+    max-width: 1070px;
+    width: 100%;
+}
+
+.header__content-title {
+    color: rgba(22, 49, 82, 1);
+    font-size: 44px;
+    font-family: var(--NS400);
+    margin-left: 80px;
+}
+
+.header__content-subtitle {
+    color: white;
+    font-family: var(--NS400);
+    font-size: 44px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.header__arrows {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.header__bg-info h3 {
+    left: 100;
+    color: white;
+    font-family: var(--NS600);
+}
+
+.header__bg-info {
+    gap: 15px;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    bottom: 40px;
+}
+.content-info p{
+    display: inline-block;
+    transform: rotate(-90deg);
+
+}
+.main__content-info {
+    margin: 120px 0 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-numbers {
+    color: rgba(22, 49, 82, 1);
+    font-family: var(--NS600);
+}
+.left-title {
+    padding-bottom: 15px;
+    margin: 10px 0 20px 0;
+    font-size: 24px;
+    font-family: var(--NS600);
+    color: rgba(22, 49, 82, 1);
+    border-bottom: 2px solid rgba(0, 198, 189, 1) ;
+}
+.left-text {
+    max-width: 287px;
+    width: 100%;
+    color: rgba(40, 60, 84, 1);
+    font-family: var(--NS400);
+}
+.middle img {
+   border: 1px solid black;
+   border-radius: 50%;
+}
