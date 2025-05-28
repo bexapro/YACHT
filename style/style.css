@@ -293,3 +293,113 @@
     max-width: 235px;
     width: 100%;
 }
+.member-right-title {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #00C6BD;
+    max-width: 300px;
+    width: 100%;
+    font-family: 24px;
+    font-family: var(--NS600);
+    color: #163152;
+}
+.member-right-text {
+    margin-bottom: 30px;
+    max-width: 280px;
+    width: 100%;
+    color: #283C54;
+    font-family: var(--NS400);
+}
+.main__member-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__member {
+    padding: 120px 0;
+}
+.main__contacts-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contacts-right-title {
+    color: #163152;
+    font-family: var(--NS600);
+    font-size: 24px;
+    border-bottom: 1px solid #00C6BD;
+    padding-bottom: 15px;
+}
+.main__right-infos {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+.main__right-infos h2 {
+    margin-right: 10px;
+    color: #163152;
+    font-size: 16px;
+    font-family: var(--NS600);
+}
+.main__right-infos p {
+    color: #283C54;
+    font-family: var(--NS400);
+}
+.main__member-right-form {
+    display: flex;
+    flex-direction: column;
+}
+.member__input {
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #163152;
+    padding: 11px 0 11px 12px;
+}
+.member__input::placeholder {
+    color: #283C54;
+    
+}
+.main__contacts {
+    padding: 120px 0;
+}
+.member-right-btn {
+    border: none;
+    outline: none;
+    color: white;
+    background: #00C6BD;
+    padding: 13px 170px;
+}
+.check p {
+    margin-left: 12px;
+    color: #283C54;
+    font-family: var(--NS400);
+    font-size: 12px;
+}
+.check {
+    margin: 30px 0 20px 0;
+    display: flex;
+    align-items: center;
+}
+.contacts__right-icons {
+    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.right-icons-title {
+    margin-bottom: 18px;
+    color: #163152;
+    font-family: var(--NS600);
+}
+.contacts__icon i {
+    color: #163152;
+}
+.contacts__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #00C6BD;
+    border-radius: 50%;
+}
